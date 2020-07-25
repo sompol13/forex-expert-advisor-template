@@ -1,3 +1,3 @@
 Expert Advisor Template
 ===========
-Expert Advisor Template is a starter template that allows you build a forex bot quickly.
+Expert Advisor Template is a starter template that helps you build new any forex bot quickly.
