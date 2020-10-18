@@ -8,7 +8,7 @@
 #property version "1.0"
 
 /**
- * The function is called in indicators and EAs when the Init event occurs. 
+ * This function is called in indicators and EAs when the Init event occurs. 
  * It is used to initialize a running MQL5 program.
  */
 int OnInit() {
@@ -16,14 +16,14 @@ int OnInit() {
 }
 
 /**
- * The function is called in indicators and EAs when the Deinit event occurs.
+ * This function is called in indicators and EAs when the Deinit event occurs.
  * It is used to deinitialize a running MQL5 program.
  */
 void OnDeinit(const int reason) {
 }
 
 /**
- * The function is called in EAs when price changes (isn't timeframe).
+ * This function is called in EAs when price changes (isn't timeframe).
  * In case when OnTick function for the previous quote is being processed 
  * when a new quote is received, the new quote will be ignored by an Expert Advisor, 
  * because the corresponding event will not enqueued.
